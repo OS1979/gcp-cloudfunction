@@ -3,7 +3,7 @@
 
 steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  args: ['echo', '$HOSTNAME']
+  args: ['echo', $HOSTNAME]
   id: BUILD
   
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
